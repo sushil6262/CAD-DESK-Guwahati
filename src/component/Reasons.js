@@ -8,14 +8,16 @@ class Reasons extends Component {
         {id:2,listItem:"we have trained more than 2 lac+ students."},
         {id:3,listItem:"To maintain a qualitative services."},
         {id:4,listItem:"CAD DESK’s trainers are certified under CCTP."}
-    ]
+    ],
+    icon:true
     }
     render() {
         return (
             <div>
             <div className="content-section implementation">
+        
                 <Accordion>
-                    <AccordionTab header="Top 6 Reasons to Choose">
+                <AccordionTab  header="Top 6 Reasons to Choose &#8595;">
                     <div>
                     <p className="text-left"><strong>Quality Education: </strong>CAD DESK &nbsp;is a leading training network of india in the field of CAD/CAM/CAE.</p>
                     <p className="text-left"><strong>Placement: </strong>For better Placement CAD DESK's.</p>
@@ -27,6 +29,7 @@ class Reasons extends Component {
                     <p className="text-left"><strong>Focus:&nbsp;</strong>CAD DESK focuses on student and works on development of his/her knowledge and skills.</p>
                     <p className="text-left"><strong>Experience:&nbsp;</strong>Having 20 years vast experience in training.<br /></p>
                 </div>
+                
                     </AccordionTab>
                 </Accordion>
             </div>

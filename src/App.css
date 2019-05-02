@@ -63,3 +63,9 @@
 .smborder a:hover{
   text-shadow: 3px 3px 3px #000000;
 }
+@media screen and (max-width: 500px) {
+  .shadowTopContainer {
+    box-shadow: none;
+    padding: 0 !important;
+  }
+}

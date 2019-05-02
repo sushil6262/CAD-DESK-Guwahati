@@ -25,8 +25,10 @@ class TopContainer extends Component {
                                     </a>
                                 </div>
                                 <div className="col-4 col-sm-4 col-md-4 mx-0 px-0 smborder borderRight p-2">
+                                    <a href="https://maps.app.goo.gl/gFc3a9jp5weUjygR6">
                                     <i className="fa fa-map-marker" style={{ fontSize: "20px", marginBottom: "8px" }}></i>
                                     <h6>DIRECTIONS</h6>
+                                    </a>
                                 </div>
                             </div>
                         </div>
